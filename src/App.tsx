@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState, type FormEvent } from "react";
-import { Activity, ArrowDownToLine, CalendarDays, Check, ChevronDown, CircleHelp, CloudUpload, Filter, ImagePlus, Images, LogOut, Menu, RefreshCw, Search, ShieldCheck, Sparkles, X } from "lucide-react";
+import { Activity, CalendarDays, Check, ChevronDown, CircleHelp, CloudUpload, Filter, ImagePlus, Images, LogOut, Menu, RefreshCw, ShieldCheck, Sparkles, X } from "lucide-react";
 import { api, type Admin, type Photo } from "./lib/api";
 
 function dateLabel(value?: string | null) {
